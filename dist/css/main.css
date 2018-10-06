@@ -172,16 +172,20 @@ main {
 
 .bio {
   grid-area: bio;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  color: #ffffff; }
 
 .job1 {
-  grid-area: job1; }
+  grid-area: job1;
+  color: #ffffff; }
 
 .job2 {
-  grid-area: job2; }
+  grid-area: job2;
+  color: #ffffff; }
 
 .job3 {
-  grid-area: job3; }
+  grid-area: job3;
+  color: #ffffff; }
 
 .job {
   background: #404545;
@@ -223,6 +227,10 @@ main {
   background: #1b1e1e;
   height: 60px;
   color: #ffffff; }
+
+form {
+  display: flex;
+  flex-direction: column; }
 
 @media screen and (min-width: 1171px) {
   .projects {
