@@ -90,6 +90,39 @@
 .nav-item:nth-child(4) {
   transition-delay: 0.4s; }
 
+input,
+textarea {
+  box-sizing: border-box;
+  display: block;
+  padding: 1.5em;
+  width: 100%;
+  border: 1px solid #008c9e;
+  font-size: 0.8em; }
+
+textarea {
+  font-size: 1.1em; }
+
+label {
+  display: block;
+  margin-top: 1em;
+  color: #ffffff;
+  font-family: "sans-serif"; }
+
+.submit {
+  display: inline-block;
+  width: 20%;
+  margin-top: 1em;
+  float: right;
+  border: none;
+  background: #008c9e;
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: sans-serif;
+  transition: all 0.5s ease-out; }
+  .submit:hover {
+    color: #008c9e;
+    transition: all 0.5s ease-out; }
+
 * {
   box-sizing: border-box; }
 
@@ -227,10 +260,6 @@ main {
   background: #1b1e1e;
   height: 60px;
   color: #ffffff; }
-
-form {
-  display: flex;
-  flex-direction: column; }
 
 @media screen and (min-width: 1171px) {
   .projects {
